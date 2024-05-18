@@ -72,3 +72,23 @@ let nombreEstudiante = "Juan";
 let nuevoMensajeBienvenida = mensajeBienvenida.replace("estudiante", nombreEstudiante);
 let ejemplo10 = document.getElementById("ejemplo10");
 ejemplo10.innerText = "Antes de reemplazar " + mensajeBienvenida + " despues de reemplazar " + nuevoMensajeBienvenida;
+
+
+//CADENAS
+
+
+let presentacion = "Hola que tal,bienvenida a QA";
+let tamanyo = presentacion.length;
+let ejercicio1 = document.getElementById("ejercicio1");
+ejercicio1.innerHTML = presentacion + "<br> tamaño=" + tamanyo; 
+
+let positionQA = presentacion.indexOf("QA");
+let ejercicio2 = document.getElementById("ejercicio2");
+ejercicio2.innerHTML = "position=" + positionQA; 
+
+
+let ejercicio3 = document.getElementById("ejercicio3");
+ejercicio3.innerHTML = "primera letra =" + presentacion[0]; 
+
+let ejercicio4 = document.getElementById("ejercicio4");
+ejercicio4.innerHTML = "ultima letra=" + presentacion[tamanyo-1];

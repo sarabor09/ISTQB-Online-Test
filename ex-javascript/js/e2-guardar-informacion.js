@@ -85,4 +85,44 @@ document.write("</br>Apellido actualizado: " + surname);
 const numMonthYear = 12;
 document.write("</br>Numero de meses del año: " + numMonthYear);
 
+//OPERACIONES:
+
+let precioManzana = 2.5;
+let precioPera = 1.5;
+let precioPlatano = 1.8;
+let kilosManzanas = 3;
+let kilosPeras = 2;
+let kilosPlatanos= 4;
+let precioManzanayPera = precioManzana + precioPera;
+let precioPlatanoyPera = precioPlatano + precioPera;
+let precio2KilosPeras = precioPera * kilosPeras;
+let precio3kilosPlatanos = precioPlatano * kilosPlatanos;
+let precio2kManzanasy3kPeras = (precioManzana * kilosManzanas) + (precioPera * kilosPeras);
+let precio5kPlatanosy2kPerasy3kManzanas = (precioPlatano * kilosPlatanos) + (precioPera * kilosPeras) + (precioManzana * kilosManzanas);
+
+
+//Crea variables para guardar las notas de un alumno: 7.5, 10.5, 8, 9.5, 7 y muestra su nota media.
+
+let nota1 = 7.5;
+let nota2 = 10.5;
+let nota3 = 8;
+let nota4 = 9.5;
+let nota5 = 7;
+let mediaNotas = (nota1 + nota2 + nota3 + nota4 + nota5) / 5;
+
+
+
+let lado = 5;
+let area = lado * lado;
+
+let largo = 8;
+let ancho = 6;
+let areaRectangulo = ancho * largo;
+
+//base x altura partido por 2
+//Determina el área de un triángulo con base de 10 metros y altura de 8 metros.
+
+let base = 10;
+let altura = 8;
+let areaTriangulo = (base * altura) / 2;
 
