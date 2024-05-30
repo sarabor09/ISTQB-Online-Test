@@ -32,7 +32,7 @@
     <div class="container mt-5">
       <div id="welcome">
         <h2>Welcome</h2>
-        <p>Welcome to ISTQB Online Test</p>
+        <p id="welcomeName"></p>
         <div id="formWelcome" class="was-validated">
           <div class="mb-3 col-4">
             <label for="name" class="form-label">Name:</label><br>
@@ -46,14 +46,13 @@
         
 
       </div>
-      <div id="test">
+      <div id="test" class="mt-5">
         <h2>Test</h2>
         <p>Istqb Online Test Section</p>
         <div class="mb-3 col-4">
-          <h3>
+          <h4>
             What is a failure?
-
-          </h3>
+          </h4>
           <div class="form-check">
             <input class="form-check-input" type="radio" name="option" id="option1">
             <label class="form-check-label" for="option1">
@@ -72,10 +71,10 @@
               C. Error found after the product release
             </label>
           </div>
-          <button class="btn btn-success" onclick="send()">Show answer</button>
+          <button class="btn btn-success mt-2" onclick="send()">Show answer</button>
         </div>
       </div>
-      <div id="ranking">
+      <div id="ranking" class="mt-5">
         <h2>Ranking</h2>
         <p>Student Ranking</p>
       </div>

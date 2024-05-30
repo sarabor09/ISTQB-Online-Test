@@ -1,9 +1,9 @@
 function welcome(){ 
     let name = document.getElementById("name").value;
-    
+    let welcomeName = document.getElementById("welcomeName")
     if (name.length > 0){
-        let message = "Welcome " + name;
-        alert (message);
+        let message = "Welcome to ISTQB Online Test " + name;
+        welcomeName.innerText = message;
     }
 }
 
