@@ -54,25 +54,262 @@
             What is a failure?
           </h4>
           <div class="form-check">
-            <input class="form-check-input" type="radio" name="option" id="option1">
+            <input class="form-check-input" type="radio" name="option1" id="option1">
             <label class="form-check-label" for="option1">
-              A. Incorrect program behavior due to an error in the program
+              A. incorrect program behavior due to an error in the program
             </label>
           </div>
           <div class="form-check">
-            <input class="form-check-input" type="radio" name="option" id="option2">
+            <input class="form-check-input" type="radio" name="option1" id="option2">
             <label class="form-check-label" for="option2">
-              B. Error found before the product release
+              B. error found before the product release
             </label>
           </div>
           <div class="form-check">
-            <input class="form-check-input" type="radio" name="option" id="option3">
+            <input class="form-check-input" type="radio" name="option1" id="option3">
             <label class="form-check-label" for="option3">
-              C. Error found after the product release
+              C. error found after the product release
             </label>
           </div>
-          <button class="btn btn-success mt-2" onclick="send()">Show answer</button>
+          <button class="btn btn-success mt-2" onclick="showAnswer(1)">Show answer</button>
+          <button class="btn btn-success mt-2" onclick="send(1)">Send answer</button>
         </div>
+
+        <div class="mb-3 col-4">
+          <h4>
+            A deviation from the specified or expected behaviour that is visible to end-users is called:
+          </h4>
+          <div class="form-check">
+            <input class="form-check-input" type="radio" name="option2" id="option1">
+            <label class="form-check-label" for="option1">
+              A. an error
+            </label>
+          </div>
+          <div class="form-check">
+            <input class="form-check-input" type="radio" name="option2" id="option2">
+            <label class="form-check-label" for="option2">
+              B. a fault
+            </label>
+          </div>
+          <div class="form-check">
+            <input class="form-check-input" type="radio" name="option2" id="option3">
+            <label class="form-check-label" for="option3">
+              C. a failure
+            </label>
+          </div>
+          <button class="btn btn-success mt-2" onclick="showAnswer(2)">Show answer</button>
+          <button class="btn btn-success mt-2" onclick="send(2)">Send answer</button>
+        </div>
+
+        <div class="mb-3 col-4">
+          <h4>
+            Order numbers on a stock control system can range between 10000 and 99999 inclusive. Which of the following inputs might be a result of designing tests for only valid equivalence classes and valid boundaries?
+          </h4>
+          <div class="form-check">
+            <input class="form-check-input" type="radio" name="option3" id="option1">
+            <label class="form-check-label" for="option1">
+              A. 1000, 50000, 99999
+            </label>
+          </div>
+          <div class="form-check">
+            <input class="form-check-input" type="radio" name="option3" id="option2">
+            <label class="form-check-label" for="option2">
+              B. 9999, 50000, 100000
+            </label>
+          </div>
+          <div class="form-check">
+            <input class="form-check-input" type="radio" name="option3" id="option3">
+            <label class="form-check-label" for="option3">
+              C. 10000, 50000, 99999
+            </label>
+          </div>
+          <button class="btn btn-success mt-2" onclick="showAnswer(3)">Show answer</button>
+          <button class="btn btn-success mt-2" onclick="send(3)">Send answer</button>
+        </div>
+
+        <div class="mb-3 col-4">
+          <h4>
+            Non-functional system testing includes:
+          </h4>
+          <div class="form-check">
+            <input class="form-check-input" type="radio" name="option4" id="option1">
+            <label class="form-check-label" for="option1">
+              A. testing to see where the system does not function correctly
+            </label>
+          </div>
+          <div class="form-check">
+            <input class="form-check-input" type="radio" name="option4" id="option2">
+            <label class="form-check-label" for="option2">
+              B. testing quality attributes of the system including performance and usability
+            </label>
+          </div>
+          <div class="form-check">
+            <input class="form-check-input" type="radio" name="option4" id="option3">
+            <label class="form-check-label" for="option3">
+              C. testing a system function using only the software required for that function
+            </label>
+          </div>
+          <button class="btn btn-success mt-2" onclick="showAnswer(4)">Show answer</button>
+          <button class="btn btn-success mt-2" onclick="send(4)">Send answer</button>
+        </div>
+
+        <div class="mb-3 col-4">
+          <h4>
+            Which of the following is NOT part of configuration management?
+          </h4>
+          <div class="form-check">
+            <input class="form-check-input" type="radio" name="option5" id="option1">
+            <label class="form-check-label" for="option1">
+              A. auditing conformance to ISO 9000
+            </label>
+          </div>
+          <div class="form-check">
+            <input class="form-check-input" type="radio" name="option5" id="option2">
+            <label class="form-check-label" for="option2">
+              B. status accounting of configuration items
+            </label>
+          </div>
+          <div class="form-check">
+            <input class="form-check-input" type="radio" name="option5" id="option3">
+            <label class="form-check-label" for="option3">
+              C. identification of test versions
+            </label>
+          </div>
+          <button class="btn btn-success mt-2" onclick="showAnswer(5)">Show answer</button>
+          <button class="btn btn-success mt-2" onclick="send(5)">Send answer</button>
+        </div>
+
+        <div class="mb-3 col-4">
+          <h4>
+            Which of the following is the main purpose of the integration strategy for integration testing in the small?
+          </h4>
+          <div class="form-check">
+            <input class="form-check-input" type="radio" name="option6" id="option1">
+            <label class="form-check-label" for="option1">
+              A. to ensure that all of the small modules are tested adequately
+            </label>
+          </div>
+          <div class="form-check">
+            <input class="form-check-input" type="radio" name="option6" id="option2">
+            <label class="form-check-label" for="option2">
+              B. to ensure that the system interfaces to other systems and networks
+            </label>
+          </div>
+          <div class="form-check">
+            <input class="form-check-input" type="radio" name="option6" id="option3">
+            <label class="form-check-label" for="option3">
+              C. to specify which modules to combine when, and how many at once
+            </label>
+          </div>
+          <button class="btn btn-success mt-2" onclick="showAnswer(6)">Show answer</button>
+          <button class="btn btn-success mt-2" onclick="send(6)">Send answer</button>
+        </div>
+
+        <div class="mb-3 col-4">
+          <h4>
+            Which of the following items would not come under Configuration Management?
+          </h4>
+          <div class="form-check">
+            <input class="form-check-input" type="radio" name="option7" id="option1">
+            <label class="form-check-label" for="option1">
+              A. operating systems
+            </label>
+          </div>
+          <div class="form-check">
+            <input class="form-check-input" type="radio" name="option7" id="option2">
+            <label class="form-check-label" for="option2">
+              B. test documentation
+            </label>
+          </div>
+          <div class="form-check">
+            <input class="form-check-input" type="radio" name="option7" id="option3">
+            <label class="form-check-label" for="option3">
+              C. live data
+            </label>
+          </div>
+          <button class="btn btn-success mt-2" onclick="showAnswer(7)">Show answer</button>
+          <button class="btn btn-success mt-2" onclick="send(7)">Send answer</button>
+        </div>
+
+        <div class="mb-3 col-4">
+          <h4>
+            Maintenance testing is:
+          </h4>
+          <div class="form-check">
+            <input class="form-check-input" type="radio" name="option8" id="option1">
+            <label class="form-check-label" for="option1">
+              A. updating tests when the software has changed
+            </label>
+          </div>
+          <div class="form-check">
+            <input class="form-check-input" type="radio" name="option8" id="option2">
+            <label class="form-check-label" for="option2">
+              B. testing a released system that has been changed
+            </label>
+          </div>
+          <div class="form-check">
+            <input class="form-check-input" type="radio" name="option8" id="option3">
+            <label class="form-check-label" for="option3">
+              C. testing by users to ensure that the system meets a business need
+            </label>
+          </div>
+          <button class="btn btn-success mt-2" onclick="showAnswer(8)">Show answer</button>
+          <button class="btn btn-success mt-2" onclick="send(8)">Send answer</button>
+        </div>
+
+        <div class="mb-3 col-4">
+          <h4>
+            What can static analysis NOT find?
+          </h4>
+          <div class="form-check">
+            <input class="form-check-input" type="radio" name="option9" id="option1">
+            <label class="form-check-label" for="option1">
+              A. the use of a variable before it has been defined
+            </label>
+          </div>
+          <div class="form-check">
+            <input class="form-check-input" type="radio" name="option9" id="option2">
+            <label class="form-check-label" for="option2">
+              B. unreachable (“dead”) code
+            </label>
+          </div>
+          <div class="form-check">
+            <input class="form-check-input" type="radio" name="option9" id="option3">
+            <label class="form-check-label" for="option3">
+              C. memory leaks
+            </label>
+          </div>
+          <button class="btn btn-success mt-2" onclick="showAnswer(9)">Show answer</button>
+          <button class="btn btn-success mt-2" onclick="send(9)">Send answer</button>
+        </div>
+
+        <div class="mb-3 col-4">
+          <h4>
+            Which of the following techniques is NOT a black box technique?
+          </h4>
+          <div class="form-check">
+            <input class="form-check-input" type="radio" name="option10" id="option1">
+            <label class="form-check-label" for="option1">
+              A. state transition testing
+            </label>
+          </div>
+          <div class="form-check">
+            <input class="form-check-input" type="radio" name="option10" id="option2">
+            <label class="form-check-label" for="option2">
+              B. LCSAJ
+            </label>
+          </div>
+          <div class="form-check">
+            <input class="form-check-input" type="radio" name="option10" id="option3">
+            <label class="form-check-label" for="option3">
+              C. syntax testing
+            </label>
+          </div>
+          <button class="btn btn-success mt-2" onclick="showAnswer(10)">Show answer</button>
+          <button class="btn btn-success mt-2" onclick="send(10)">Send answer</button>
+        </div>
+
+
       </div>
       <div id="ranking" class="mt-5">
         <h2>Ranking</h2>
