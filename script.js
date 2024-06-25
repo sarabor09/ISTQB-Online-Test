@@ -1,23 +1,6 @@
 const correctAnswerArray = ["option1", "option6","option9", "option11", "option13", 
 "option18", "option21", "option23","option27", "option29"];
-let rankingList = [
-    {
-        name : "Sara",
-        result : 5
-    },
-    {
-        name : "Kike",
-        result : 3
-    },
-    {
-        name : "Yago",
-        result : 7
-    },
-    {
-        name : "Leo",
-        result : 9
-    }
-];
+let rankingList = [];
 
 function welcome(){ 
     let userName = document.getElementById("name").value;
