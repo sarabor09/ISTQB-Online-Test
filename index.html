@@ -36,12 +36,12 @@
         <div id="formWelcome" class="was-validated">
           <div class="mb-3 col-4">
             <label for="name" class="form-label">Name:</label><br>
-            <input type="text" class="form-control" id="name" name="name" required maxlength="10"><br>
+            <input type="text" class="form-control" id="name" data-cy="input-nombre-bienvenido" name="name" required maxlength="10"><br>
   
-            <div class="valid-feedback">Valid.</div>
-            <div class="invalid-feedback">This field is mandatory, length should be less than 10.</div>
+            <div class="valid-feedback" data-cy="success-welcome-message">Valid.</div>
+            <div class="invalid-feedback" data-cy="error-welcome-message">This field is mandatory, length should be less than 10.</div>
           </div>
-          <button class="btn btn-success" onclick="welcome()">Enter</button>
+          <button class="btn btn-success" data-cy="button-start"onclick="welcome()">Enter</button>
         </div>
         
 
